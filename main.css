@@ -1,11 +1,11 @@
 :root {
-    --bg: #282a36;
-    --text: #f8f8f2;
-    --pink: #ff79c6;
-    --green: #50fa7b;
-    --purple: #bd93f9;
-    --blue:#6272a4;
-    --cyan:#8be9fd;
+    --bg: #000000;
+    --text: #F7F4E9;
+    --link-hover: #5626C4;
+    --banner:#181818;
+    --link:#2CCCC3;
+    --pink:#E60576;
+    --yellow:#FACD3D;
 }
 
 html {
@@ -37,7 +37,7 @@ a.title {
     margin-top: 34px;
     text-align: center;
     min-height:10vh;
-    background-color: var(--blue);
+    background-color: var(--banner);
     height: 30vh;
     display: flex;
     justify-content: center;
@@ -68,18 +68,18 @@ a.title {
 /* Links/Selection */
 ::selection {
     color: var(--bg);
-    background: var(--pink);
+    background: var(--link-hover);
     text-decoration: none;
 }
   
 a:hover {
-    color:var(--pink);
+    color:var(--link-hover);
     text-decoration: none;
 }
   
 a {
     text-decoration: none;
-    color: var(--cyan);
+    color: var(--link);
 }
   
 a.top-bar {
@@ -87,6 +87,6 @@ a.top-bar {
 }
   
 a.top-bar:hover {
-    color:var(--pink);
+    color:var(--link-hover);
 }
 /* Links */
