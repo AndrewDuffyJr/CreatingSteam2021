@@ -1,0 +1,92 @@
+:root {
+    --bg: #282a36;
+    --text: #f8f8f2;
+    --pink: #ff79c6;
+    --green: #50fa7b;
+    --purple: #bd93f9;
+    --blue:#6272a4;
+    --cyan:#8be9fd;
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    color: var(--text);
+    background-color: var(--bg);
+}
+
+/* Top Nav Bar */
+.header {
+    position: fixed;
+    background-color: var(--bg);
+}
+  
+.right {
+    float: right;
+}
+  
+a.title {
+    text-transform: none;
+}
+/* Top Nav Bar */
+
+/* Top Banner */
+.banner {
+    margin-top: 34px;
+    text-align: center;
+    min-height:10vh;
+    background-color: var(--blue);
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+/* Top Banner */
+
+/* Tile Content */
+.tile {
+    text-align: center;
+    min-height:5vh;
+}
+  
+.tilesplit {
+    height: 50%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+  
+.centered-box {
+    padding: 5vw;
+    text-align: left;
+}
+/* Tile Content */
+
+/* Links/Selection */
+::selection {
+    color: var(--bg);
+    background: var(--pink);
+    text-decoration: none;
+}
+  
+a:hover {
+    color:var(--pink);
+    text-decoration: none;
+}
+  
+a {
+    text-decoration: none;
+    color: var(--cyan);
+}
+  
+a.top-bar {
+    color: var(--text);
+}
+  
+a.top-bar:hover {
+    color:var(--pink);
+}
+/* Links */
