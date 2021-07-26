@@ -90,3 +90,11 @@ a.top-bar:hover {
     color:var(--link-hover);
 }
 /* Links */
+
+video {
+    /* override other styles to make responsive */
+    width: 90vw    !important;
+    height: 40vh   !important;
+    object-fit: cover;
+    margin-left: 5vw;
+  }
