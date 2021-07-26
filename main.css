@@ -17,6 +17,14 @@ body {
     background-color: var(--bg);
 }
 
+p {
+    font-size: 2vh;
+}
+
+.h2 {
+    font-size: 2.5vh;
+}
+
 /* Top Nav Bar */
 .header {
     position: fixed;
@@ -94,7 +102,7 @@ a.top-bar:hover {
 video {
     /* override other styles to make responsive */
     width: 90vw    !important;
-    height: 40vh   !important;
+    height: 50vh   !important;
     object-fit: cover;
     margin-left: 5vw;
   }
